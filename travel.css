@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.header-title {
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    left: 120px;
+    top: 122px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #ffffff;
+}
+
+.header-subtitle {
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    left: 120px;
+    top: 346px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.input-text {
+    display: flex;
+}
+
+.input {
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+
+.input-liym {
+    position: absolute;
+    width: 560px;
+    height: 22px;
+    left: 161px;
+    top: 448px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #f2785c;
+}
+
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 766px;
+    top: 434px;
+    color: #ffffff;
+    background: #0d606f;
+    box-shadow: rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
+
+.img-wrapper{
+    width: 3300px;
+    height: 970px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.heaber-title {
+  position: absolute;
+  width: 800px;
+  height: 53px;
+  left: calc(50% - 611px/2);
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #f2785c;
+}
+
+.heaber-img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: calc(50% - 200px/2);
+  top: calc(50% - 200px/2);
+  background: #f2785c;
+  border-radius: 16px;
+  margin-top: 836px;
+}
