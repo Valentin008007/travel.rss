@@ -23,17 +23,17 @@ html {
   }
 
 body{
-    font-family: 'League Spartan', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
+  
 .header-title {
     position: absolute;
-    width: 892px;
+    width: 829px;
     height: 422px;
     left: 120px;
     top: 122px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -41,96 +41,145 @@ body{
     color: #ffffff;
 }
 
-.header-subtitle {
+.text-title {
     position: absolute;
-    width: 723px;
+    width: 900px;
     height: 24px;
     left: 120px;
     top: 346px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 24px;
     color: #ffffff;
 }
 
-.input-text {
-    display: flex;
+.input-wrapper{
+  display: flex;
 }
 
-.input {
-    position: absolute;
-    width: 892px;
-    height: 95px;
-    left: 120px;
-    top: 416px;
-    background: rgba(255, 255, 255, 0.7);
-    border-radius: 16px;
-}
-
-.input-liym {
-    position: absolute;
-    width: 560px;
-    height: 22px;
-    left: 161px;
-    top: 448px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #f2785c;
-}
-
-
-.link {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;
-    position: absolute;
-    width: 228px;
-    height: 59px;
-    left: 766px;
-    top: 434px;
-    color: #ffffff;
-    background: #0d606f;
-    box-shadow: rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-}
-
-.img-wrapper{
-    width: 3300px;
-    height: 970px;
-    left: 0px;
-    top: 0px;
-}
-
-
-.heaber-title {
+.input-title {
   position: absolute;
-  width: 800px;
-  height: 53px;
-  left: calc(50% - 611px/2);
-  margin-top: 100px;
+  width: 892px;
+  height: 95px;
+  left: 120px;
+  top: 416px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+.input-text{
+  position: absolute;
+  width: 560px;
+  height: 22px;
+  left: 161px;
+  top: 448px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 53px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
   color: #f2785c;
 }
 
-.heaber-img {
+.input-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
   position: absolute;
-  width: 200px;
-  height: 200px;
-  left: calc(50% - 200px/2);
-  top: calc(50% - 200px/2);
+  width: 228px;
+  height: 59px;
+  left: 766px;
+  top: 434px;
+  background: #0d606f;
+  color: #ffffff;
+}
+
+
+.img-wrapper{
+  position: absolute;
+  width: 3200px;
+  height: 970px;
+  left: 0px;
+  top: 0px;
+  background: url(travel.png);
+}
+
+.text-imput {
+  width: 163px;
+  height: 32px;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header-text {
+ position: absolute;
+ width: 769px;
+ height: 303px;
+ left: calc(50% - 611px/2);
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 49px; 
+ line-height: 53px;
+ margin-top: 1015px;
+ color: #f2785c;
+}
+
+.svg {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 670px;
+  top: calc(50 - 100/2px);
   background: #f2785c;
   border-radius: 16px;
-  margin-top: 836px;
+  margin-top: 47%;
+}
+
+.srg {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1270px;
+  top: calc(50 - 100/2px);
+  background: #f2785c;
+  border-radius: 16px;
+  margin-top: 47%;
+}
+
+.sng{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1900px;
+  top: calc(50 - 100/2px);
+  background: #f2785c;
+  border-radius: 16px;
+  margin-top: 47%;
+}
+
+.svg-text {
+  position: absolute;
+  width: 247px;
+  height: 24px;
+  left: 661px;
+  top: 130px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d606f;
+  padding-top: 50%;
 }
